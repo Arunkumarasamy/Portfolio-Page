@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+
+
+.form_page{
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid 0px black;
+    width: 35%;
+    margin-left: 450px;
+    box-shadow: 0px 0px 20px silver;
+    
+    
+}
+.form_content{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form_input{
+    text-align: center;
+}
+.form_input label{
+    margin-right: 300px;
+}
+.form_input input{
+    margin-top: 5px;
+    padding: 10px;
+    width: 350px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.form_input label{
+    
+    padding-top: 20px;
+    width: 350px;
+    font-size: 18px;
+}
+#form_btn{
+        padding: 12px;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        background-color: blue;
+        border: none;
+        width: 150px;
+        border-radius: 10px;
+        font-size: 18px;
+        color: white;
+}
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="form_page">
+        <div class="form_content">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="form_input">
+        <form action="" method="post" id="userInfo">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Name" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Mail-id" required><br>
+
+            <label for="phone">Mobile</label><br>
+            <input type="tel" id="mobile" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" maxlength="12" minlength="10" placeholder="000-0000-000" required><br>
+
+            <textarea name="msg" id="msg" cols="36" rows="10" placeholder="Pls enter your message" style="font-size: 18px; padding: 5px;" required></textarea><br>
+            <button type="submit" id="form_btn">Submit</button>
+
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>

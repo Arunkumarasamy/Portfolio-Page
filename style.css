@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: rgb(53, 53, 240);
+}
+
+.home {
+    color: white;
+    background-color: black;
+    height: 650px;
+    width: 100%;
+}
+
+.home_tit_center button {
+    display: inline;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.home_tit {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center;
+}
+.home_tit_right{
+    border: solid black;
+    border-radius: 15px;
+    background-color: rgb(75, 75, 218);
+    padding: 5px;
+}
+.home_cont {
+    padding-left: 300px;
+}
+
+.circle1 {
+    height: 430px;
+    width: 430px;
+    border: solid 0px white;
+    border-radius: 300px;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: blue;
+}
+
+.home_para {
+    margin-top: -300px;
+}
+
+#web {
+    font-size: 70px;
+}
+
+#dev {
+    font-size: 70px;
+    padding-top: 10px;
+    padding-left: 130px;
+    position: absolute;
+}
+
+.home_img img {
+    position: relative;
+    top: -45px;
+    left: -75px;
+    margin-top:-370px;
+    margin-left: 290px;
+    border-radius:380px ;
+}
+
+.home_bold h1{
+    font-family:'Times New Roman', Times, serif;
+}
+.home_tit_center button:hover{
+    color: blue;
+    transition: all 0.5s;
+    border-bottom: 2px solid blue;
+}
+.home_tit_right:hover{
+    background-color:green;
+    transition: all 0.5s;
+}
+
+.strength {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    height: 350px;
+    background-color: white;
+}
+.strength i {
+    color: blue;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.strength_flex {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border: solid 1px black;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.skills {
+    background-color: white;
+    color: black;
+    height: 650px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.skills_icon {
+    margin-top: 30px;
+    padding: 50px;
+}
+
+.skill_icon_par1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill_icon_par2 {
+    display: flex;
+    justify-content: space-around;
+}
+#arrow_icon{
+    position: fixed;
+    bottom:10px;
+    
+}
+#arrow_icon button {
+    border: solid 1px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 1280px;
+    margin-top: -20px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: rgb(53, 53, 240);  
+    cursor: pointer;
+}
+#arrow_icon i{
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.about {
+    background-color: black;
+    color: white;
+    height: 650px;
+    width: 100%;
+}
+
+.about_tit {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.about_cont {
+    display: flex;
+}
+
+.about_cont_right {
+    margin-top: 230px;
+    margin-left: 70px;
+
+}
+
+.circle2 {
+    height: 400px;
+    width: 400px;
+    border: solid 5px white;
+    border-radius: 300px;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 255, 0.733);
+    position: relative;
+}
+
+.about_img img {
+    position: absolute;
+    left: -60px;
+    margin-top: -390px;
+    margin-left: 270px;    
+    border-radius: 380px;
+}
+
+.project {
+    background-color: white;
+    color: black;
+    height: 650px;
+    width: 100%;
+}
+
+.project_img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.project_task{
+ border: solid 1px black;
+height: 430px;
+width: 400px;
+padding: 30px;
+}
+.project_task img{
+    margin-left: 60px;
+}
+.project_task img:hover{
+    width: 210px;
+    height: 220px;
+}
+.project_task li:hover{
+    color:blue;
+    transition: all 0.5s;
+}
+
+.li li{
+    list-style: disc;
+}
+.project_task li{
+    padding: 5px 10px;
+}
+.contact {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 680px;
+}
+
+.contact_content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle3 {
+
+    height: 350px;
+    width: 350px;
+    border: solid 2px white;
+    border-radius: 250px;
+    background-color: rgb(39, 85, 235);
+}
+.circle3 img{
+    border-radius:330px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.contact_btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact_border{
+    border: solid 1px black;
+    height: 30px;
+    width: 100px;
+    background-color:rgb(39, 85, 235); 
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 15px;
+}
